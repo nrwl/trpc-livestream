@@ -7,7 +7,7 @@ import TodoList from './todo-list';
 
 export const trpc = createTRPCReact<TodoTrpcRouter>();
 export const trpcClient = trpc.createClient({
-  links: [httpBatchLink({ url: 'http://localhost:3000/api' })],
+  links: [httpBatchLink({ url: '/api' })],
 });
 export const queryClient = new QueryClient();
 
