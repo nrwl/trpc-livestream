@@ -4,6 +4,12 @@ This project is a demo of using [trpc](https://trpc.io) with [Nx](https://nx.dev
 
 [YouTube link](https://www.youtube.com/watch?v=W-9cwIn-YSM)
 
+To try it yourself:
+
+```terminal
+yarn && yarn start
+```
+
 ## Understand this workspace
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
